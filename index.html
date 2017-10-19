@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Web Applications and Portals on Tryton</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/night.css">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+                    <h1>Web Applications and Portals on Tryton</h1>
+                    <p>Available on: <a target="_blank"
+                        href="http://pokoli.github.io/tryton-web-applications-and-portals/">
+                        http://pokoli.github.io/tryton-web-applications-and-portals/</a></p>
+                </section>
+				<section>
+                    <h2> Who am I?</h2>
+                    <h3 class="fragment enfassis">
+                        Sergi Almacellas Abellana</h3>
+                    <ul>
+                        <li class="fragment">(Python &hearts;) Programmer</li>
+                        <li class="fragment">Open source enthusiast</li>
+                        <li class="fragment">Tryton commiter since Nov 2013
+                        </li>
+                    </ul>
+                </section>
+				<section>
+                    <h2>What's a web application?</h2>
+                    <ul>
+                        <li class="fragment enfassis">Different UI</li>
+                        <li class="fragment enfassis">Password-less</li>
+                        <li class="fragment enfassis">Accessing same data</li>
+                        <li class="fragment enfassis">Same user (and access)</li>
+                        </li>
+                    </ul>
+                </section>
+				<section>
+                    <h2>What's a web portal?</h2>
+                    <ul>
+                        <li class="fragment enfassis">Different UI</li>
+                        <li class="fragment enfassis">External user and password</li>
+                        <li class="fragment enfassis">Accessing same data</li>
+                        <li class="fragment enfassis">Can provide more restricted access</li>
+                        </li>
+                    </ul>
+                </section>
+				<section>
+                    <h2>Demo</h2>
+                    <ul>
+                        <li class="fragment">Planning web application</li>
+                        <li class="fragment">Customer projects portal</li>
+                    </ul>
+                </section>
+				<section>
+                    <h1>Thank you!</h1>
+                    <p>The presentation code is avaiable on:</p>
+                    <p><a target="_blank"
+                        href="http://github.com/pokoli/tryton-web-applications-and-portals/">
+                        http://github.com/pokoli/tryton-web-applications-and-portals/
+                    </a></p>
+                    <h1 class="fragment">Questions?</h1>
+                </section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
